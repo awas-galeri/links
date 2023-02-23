@@ -29,8 +29,8 @@ body {
 .links {
     min-height: 100vh;
     background: linear-gradient(to top right, #fd9696 30%, #fcb7b7);
-    background-position: left;
-    background-size: 700%;
+    /* background-position: left; */
+    /* background-size: 700%; */
     animation: bg-animasi 4s infinite alternate-reverse;
     display: flex;
     justify-content: center;
