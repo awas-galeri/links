@@ -207,7 +207,57 @@ body {
 @media (max-width: 768px) {
     html {
         font-size: 62.5%;
-    }    
+    }
+
+    .links .row img {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .links .row h2 {
+        font-size: 1.5rem;
+    }
+
+    .links .row a {
+        font-size: 1.2rem;
+    }
+
+    .links .row p {
+        font-size: 0.8rem;
+    }
+
+    .circle {
+        width: 200px;
+        height: 200px;
+    }
+
+    .small {
+        width: 30px;
+        height: 30px;
+        left: 30em;
+        top: 2em;
+    }
+
+    .smally {
+        width: 60px;
+        height: 60px;
+        right: 4em;
+        top: 1em;
+    }
+
+    .big {
+        width: 300px;
+        height: 300px;
+        left: -50px;
+        top: -100px;
+    }
+
+    .med {
+        width: 100px;
+        height: 100px;
+        left: 10px;
+        bottom: 5px;
+    }
 }
 
 /* Phone */
