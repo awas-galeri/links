@@ -222,8 +222,10 @@ body {
     }
 
     .circle {
-        width: 165px;
-        height: 165px;
+        width: 200px;
+        height: 200px;
+        right: -30px;
+        bottom: -15px;
     }
 
     .small {
