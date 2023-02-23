@@ -91,7 +91,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 15rem;
+    width: 17rem;
     height: 4rem;
     background-color: #fff;
     margin: 1rem 0;
@@ -165,8 +165,8 @@ body {
 .small {
     width: 5rem;
     height: 5rem;
-    left: 14rem;
-    top: 24rem;
+    right: 29rem;
+    top: 29rem;
     filter: blur(1.2px);
 }
 
