@@ -132,12 +132,12 @@ body {
 
 /* Animasi Section */
 .circle {
-    width: 19rem;
-    height: 19rem;
+    width: 13rem;
+    height: 13rem;
     border-radius: 50%;
     position: absolute;
-    right: -1rem;
-    bottom: -1rem;
+    right: 2rem;
+    bottom: 2rem;
     background: linear-gradient(to top right, #fd9696 30%, #fcb7b7);
     box-shadow: 0 0px 10px rgba(0, 0, 0, 0.3);
     animation: shadow 8s infinite alternate;
@@ -173,7 +173,7 @@ body {
 .smally {
     width: 9rem;
     height: 9rem;
-    right: 6rem;
+    left: 6rem;
     top: 2rem;
     filter: blur(0.9px);
 }
@@ -181,15 +181,15 @@ body {
 .big {
     width: 37rem;
     height: 37rem;
-    left: -10rem;
+    right: -10rem;
     top: -20rem;
 }
 
 .med {
-    width: 13rem;
-    height: 13rem;
-    left: 2rem;
-    bottom: 2rem;
+    width: 19rem;
+    height: 19rem;
+    left: -1rem;
+    bottom: -1rem;
     filter: blur(0.5px);
 }
 
@@ -210,20 +210,20 @@ body {
     }
 
     .links .row img {
-        width: 8rem;
-        height: 8rem;
+        width: 10rem;
+        height: 10rem;
     }
 
     .links .row h2 {
-        font-size: 1.5rem;
+        font-size: 1.9rem;
     }
 
     .links .row a {
-        font-size: 1.2rem;
+        font-size: 1.6rem;
     }
 
     .links .row p {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 }
 
