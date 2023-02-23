@@ -210,20 +210,20 @@ body {
     }
 
     .links .row img {
-        width: 10rem;
-        height: 10rem;
+        width: 12rem;
+        height: 12rem;
     }
 
     .links .row h2 {
-        font-size: 1.9rem;
+        font-size: 2.1rem;
     }
 
     .links .row a {
-        font-size: 1.6rem;
+        font-size: 1.9rem;
     }
 
     .links .row p {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 }
 
