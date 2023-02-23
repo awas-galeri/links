@@ -209,18 +209,6 @@ body {
         font-size: 62.5%;
     }
 
-    .links .row h2 {
-        font-size: 2rem;
-    }
-
-    .links .row a {
-        font-size: 1.8rem;
-    }
-
-    .links .row p {
-        font-size: 0.8rem;
-    }
-
     .circle {
         width: 200px;
         height: 200px;
@@ -265,12 +253,12 @@ body {
     }
 
     .links .row h2 {
-        font-size: 2.3rem;
+        font-size: 2.1rem;
         margin-bottom: 1rem;
     }
 
     .links .row a {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .links .row p {
