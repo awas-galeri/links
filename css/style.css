@@ -1,0 +1,264 @@
+:root {
+    --pr: #fd9696;
+    --sc: #d90978;
+    --bg: #fccece;
+    --dr: #181818;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Viga', sans-serif;
+    color: #fff;
+}
+
+
+/* Links Section */
+.links {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top right, #fd9696 30%, #fdaeae);
+    background-position: left;
+    background-size: 700%;
+    animation: bg-animasi 4s infinite alternate-reverse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes bg-animasi{
+    0%{
+        background-position: left;
+    }
+    25% {
+        background-position: top;
+    }
+    50% {
+        background-position: right;
+    }
+    75% {
+        background-position: bottom;
+    }
+    100%{
+        background-position: center;
+    }
+}
+
+.links .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.links .row img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    /* animation: shadow 8s infinite alternate; */
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+    position: relative;
+}
+
+.links .row img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.links .row h2 {
+    font-size: 2rem;
+    font-weight: 100;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.links .row a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 3rem;
+    background-color: #fff;
+    margin: 1rem 0;
+    padding: 0 1rem;
+    border-radius: 0.5rem;
+    color: var(--pr);
+    font-size: 1.5rem;
+    font-weight: 100;
+    transition: all 0.3s ease-in-out;
+}
+
+.links .row a .icon {
+    margin-right: 0.5rem;
+}
+
+.links .row a:hover {
+    background-color: var(--pr);
+    color: #fff;
+    transform: scale(1.1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.links .row p {
+    font-size: 1rem;
+    font-weight: 100;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.links .row p span {
+    color: var(--pr);
+    font-weight: 100;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 1);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+
+/* Animasi Section */
+.circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    right: -20px;
+    bottom: -10px;
+    background: linear-gradient(to top right, #fd9696 30%, #fda5a5);
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.3);
+    animation: shadow 8s infinite alternate;
+    filter: blur(0.2px);
+}
+
+@keyframes shadow {
+    0% {
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    }
+    25% {
+        box-shadow: -10px 0 10px rgba(0, 0, 0, 0.3);
+    }
+    50% {
+        box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.3);
+    }
+    75% {
+        box-shadow: 10px 0 10px rgba(0, 0, 0, 0.3);
+    }
+    100% {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+}
+
+.small {
+    width: 50px;
+    height: 50px;
+    left: 43em;
+    top: 3em;
+    filter: blur(1.2px);
+}
+
+.smally {
+    width: 90px;
+    height: 90px;
+    right: 6em;
+    top: 2em;
+    filter: blur(0.9px);
+}
+
+.big {
+    width: 500px;
+    height: 500px;
+    left: -100px;
+    top: -200px;
+}
+
+.med {
+    width: 150px;
+    height: 150px;
+    left: 20px;
+    bottom: 10px;
+    filter: blur(0.5px);
+}
+
+
+/* Media Queries */
+
+/* Laptop */
+@media (max-width: 1366px) {
+    html {
+        font-size: 75%;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    html {
+        font-size: 62.5%;
+    }
+
+    .links .row h2 {
+        font-size: 1.5rem;
+    }
+
+    .links .row a {
+        font-size: 1.2rem;
+    }
+
+    .links .row p {
+        font-size: 0.8rem;
+    }
+
+    .circle {
+        width: 175px;
+        height: 175px;
+    }
+
+    .small {
+        width: 30px;
+        height: 30px;
+        left: 30em;
+        top: 3em;
+    }
+
+    .smally {
+        width: 60px;
+        height: 60px;
+        right: 4em;
+        top: 1em;
+    }
+
+    .big {
+        width: 250px;
+        height: 250px;
+        left: -50px;
+        top: -100px;
+    }
+
+    .med {
+        width: 100px;
+        height: 100px;
+        left: 10px;
+        bottom: 5px;
+    }
+    
+}
+
+/* Phone */
+@media (max-width: 450px) {
+    html {
+        font-size: 55%;
+    }
+}

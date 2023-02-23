@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/fav.png" type="image/x-icon" />
+
+    <!-- My Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Viga&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Fake Loader -->
+    <link rel="stylesheet" href="css/fakeLoader.css" />
+
+    <title>Awas Links</title>
+  </head>
+
+  <body>
+    <!-- Fake Loader -->
+    <div class="fakeLoader"></div>
+
+    <!-- Link Section -->
+    <section class="links" id="links">
+      <div class="row">
+        <img src="/img/profil.png" alt="Hero.png" />
+        <h2>Awas Galeri</h2>
+        <a href="https://awas-galeri.github.io/" target="_blank"
+          ><i data-feather="home" class="icon"></i>Website</a
+        >
+        <a
+          href="https://www.facebook.com/profile.php?id=100080385702445"
+          target="_blank"
+          ><i data-feather="facebook" class="icon"></i>Facebook</a
+        >
+        <a
+          href="https://www.instagram.com/awas.gallery/?igshid=YmMyMTA2M2Y%3D"
+          target="_blank"
+          ><i data-feather="instagram" class="icon"></i>Instagram</a
+        >
+        <a href="https://twitter.com/awas_galeri" target="_blank"
+          ><i data-feather="twitter" class="icon"></i>Twitter</a
+        >
+        <a href="https://wa.me/" target="_blank"
+          ><i data-feather="phone" class="icon"></i>Whatsapp</a
+        >
+        <p><span>&copy; 2023 Awas Galeri</span> | All rights reserved.</p>
+      </div>
+
+      <div class="circle"></div>
+      <div class="circle small"></div>
+      <div class="circle smally"></div>
+      <div class="circle big"></div>
+      <div class="circle med"></div>
+    </section>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Tilt JS -->
+    <script type="text/javascript" src="js/vanilla-tilt.min.js"></script>
+    <script>
+      VanillaTilt.init(document.querySelector(".info-panel"), {
+        max: 35,
+        speed: 300,
+        glare: true,
+        "max-glare": 0.7,
+        scale: 1.1,
+      });
+    </script>
+
+    <!-- Fake Loader -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/fakeLoader.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $.fakeLoader({
+          timeToHide: 1400,
+          // bgColor: "#3498db",
+          bgColor: "#fd9696",
+          spinner: "spinner3",
+        });
+      });
+    </script>
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
