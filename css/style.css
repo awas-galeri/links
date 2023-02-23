@@ -132,12 +132,12 @@ body {
 
 /* Animasi Section */
 .circle {
-    width: 300px;
-    height: 300px;
+    width: 19rem;
+    height: 19rem;
     border-radius: 50%;
     position: absolute;
-    right: -20px;
-    bottom: -10px;
+    right: -1rem;
+    bottom: -1rem;
     background: linear-gradient(to top right, #fd9696 30%, #fcb7b7);
     box-shadow: 0 0px 10px rgba(0, 0, 0, 0.3);
     animation: shadow 8s infinite alternate;
@@ -163,33 +163,33 @@ body {
 }
 
 .small {
-    width: 50px;
-    height: 50px;
-    left: 43em;
-    top: 3em;
+    width: 5rem;
+    height: 5rem;
+    left: 30rem;
+    top: 19rem;
     filter: blur(1.2px);
 }
 
 .smally {
-    width: 90px;
-    height: 90px;
-    right: 6em;
-    top: 2em;
+    width: 9rem;
+    height: 9rem;
+    right: 6rem;
+    top: 2rem;
     filter: blur(0.9px);
 }
 
 .big {
-    width: 500px;
-    height: 500px;
-    left: -100px;
-    top: -200px;
+    width: 37rem;
+    height: 37rem;
+    left: -10rem;
+    top: -20rem;
 }
 
 .med {
-    width: 150px;
-    height: 150px;
-    left: 20px;
-    bottom: 10px;
+    width: 13rem;
+    height: 13rem;
+    left: 2rem;
+    bottom: 2rem;
     filter: blur(0.5px);
 }
 
@@ -224,39 +224,6 @@ body {
 
     .links .row p {
         font-size: 0.8rem;
-    }
-
-    .circle {
-        width: 200px;
-        height: 200px;
-        right: -10px;
-        bottom: -5px;
-    }
-
-    .small {
-        width: 30px;
-        height: 30px;
-        left: 30em;
-        top: 2em;
-    }
-
-    .smally {
-        width: 60px;
-        height: 60px;
-    }
-
-    .big {
-        width: 300px;
-        height: 300px;
-        left: -50px;
-        top: -100px;
-    }
-
-    .med {
-        width: 100px;
-        height: 100px;
-        left: 10px;
-        bottom: 5px;
     }
 }
 
