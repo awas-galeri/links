@@ -71,7 +71,7 @@ body {
     /* animation: shadow 8s infinite alternate; */
     transition: all 0.3s ease-in-out;
     cursor: pointer;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.9rem;
     position: relative;
 }
 
@@ -210,11 +210,11 @@ body {
     }
 
     .links .row h2 {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
 
     .links .row a {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
 
     .links .row p {
@@ -222,8 +222,8 @@ body {
     }
 
     .circle {
-        width: 175px;
-        height: 175px;
+        width: 165px;
+        height: 165px;
     }
 
     .small {
