@@ -265,22 +265,24 @@ body {
     }
 
     .links .row h2 {
-        font-size: 2rem;
+        font-size: 2.3rem;
+        margin-bottom: 1rem;
     }
 
     .links .row a {
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
 
     .links .row p {
+        margin-top: 1rem;
         font-size: 0.8rem;
     }
 
     .circle {
         width: 200px;
         height: 200px;
-        right: -40px;
-        bottom: -25px;
+        right: -20px;
+        bottom: -5px;
     }
 
     .small {
