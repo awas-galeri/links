@@ -232,4 +232,21 @@ body {
     html {
         font-size: 45%;
     }
+    
+    .links .row img {
+        width: 13rem;
+        height: 13rem;
+    }
+
+    .links .row h2 {
+        font-size: 2.2rem;
+    }
+
+    .links .row a {
+        font-size: 2rem;
+    }
+
+    .links .row p {
+        font-size: 1.2rem;
+    }
 }
