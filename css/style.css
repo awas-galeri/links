@@ -132,12 +132,12 @@ body {
 
 /* Animasi Section */
 .circle {
-    width: 13rem;
-    height: 13rem;
+    width: 10rem;
+    height: 10rem;
     border-radius: 50%;
     position: absolute;
-    right: 0;
-    bottom: 0;
+    right: 3rem;
+    bottom: 4rem;
     background: linear-gradient(to top right, #fd9696 30%, #fcb7b7);
     box-shadow: 0 0px 10px rgba(0, 0, 0, 0.3);
     animation: shadow 8s infinite alternate;
@@ -164,16 +164,16 @@ body {
 }
 
 .small {
-    width: 5rem;
-    height: 5rem;
+    width: 2rem;
+    height: 2rem;
     right: 29rem;
     top: 29rem;
-    filter: blur(1.2px);
+    filter: blur(1px);
 }
 
 .smally {
-    width: 9rem;
-    height: 9rem;
+    width: 6rem;
+    height: 6rem;
     left: 6rem;
     top: 2rem;
     filter: blur(0.9px);
