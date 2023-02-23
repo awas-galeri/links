@@ -91,7 +91,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 90%;
     height: 3rem;
     background-color: #fff;
     margin: 1rem 0;
@@ -262,5 +262,52 @@ body {
 @media (max-width: 450px) {
     html {
         font-size: 55%;
+    }
+
+    .links .row h2 {
+        font-size: 2rem;
+    }
+
+    .links .row a {
+        font-size: 1.8rem;
+    }
+
+    .links .row p {
+        font-size: 0.8rem;
+    }
+
+    .circle {
+        width: 200px;
+        height: 200px;
+        right: -40px;
+        bottom: -25px;
+    }
+
+    .small {
+        width: 30px;
+        height: 30px;
+        left: 30em;
+        top: 3em;
+    }
+
+    .smally {
+        width: 60px;
+        height: 60px;
+        right: 4em;
+        top: 1em;
+    }
+
+    .big {
+        width: 250px;
+        height: 250px;
+        left: -50px;
+        top: -100px;
+    }
+
+    .med {
+        width: 100px;
+        height: 100px;
+        left: 10px;
+        bottom: 5px;
     }
 }
