@@ -187,10 +187,10 @@ body {
 }
 
 .med {
-    width: 22rem;
-    height: 22rem;
-    left: -4rem;
-    bottom: -4rem;
+    width: 28rem;
+    height: 28rem;
+    left: -11rem;
+    bottom: -12rem;
     filter: blur(0.5px);
 }
 
