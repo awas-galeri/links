@@ -189,8 +189,8 @@ body {
 .med {
     width: 19rem;
     height: 19rem;
-    left: -1rem;
-    bottom: -1rem;
+    left: -4rem;
+    bottom: -4rem;
     filter: blur(0.5px);
 }
 
